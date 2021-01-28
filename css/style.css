@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.margin-left-auto{
+    margin-left: auto;
+}
+.logo-icon{
+  height: 50px;
+  margin-right: 10px;
+}
+.logo-title-color{
+  color: rgb(51, 133, 217);
+}
+.login-btn {
+  width: 50%;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#submit-area {
+  box-shadow: 10px 10px 20px gray;
+  padding: 30px;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+#transaction-area {
+  display: none;
+}
+.transaction-history {
+  margin: 10px;
+  border-radius: 10px;
+}
+.input-card {
+  margin: 20px;
+  box-shadow: 10px 10px 20px gray;
+  padding: 10px;
+  border-radius: 10px;
+}
+.user-name-bg{
+  background-color: #2193F0;
+  border-radius: 15px;
+}
+#depositAmount {
+  background-color: slateblue;
+}
+#withdrawAmount {
+  background-color: lightsalmon;
+}
+#balanceAmount {
+  background-color: orange;
+}
+.footer-text{
+  margin-top: 17px;
+}
+@media (min-width: 0) and (max-width: 991.98px){
+  .width-100{
+    width: 100% !important;
+  }
+  .footer-text{
+    margin-top: 20px;
+  }
+}
